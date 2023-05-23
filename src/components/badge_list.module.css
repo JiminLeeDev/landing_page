@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    cursor: cell;
+}
+
+.badge {
+    padding: 0.5% 1%;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    transition: all .5s;
+    font-size: 1.8rem;
+}
+
+.badge:hover {
+    background-color: hotpink;
+    color: black;
+    font-size: 2rem;
+}

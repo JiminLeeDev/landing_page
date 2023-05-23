@@ -1,0 +1,49 @@
+.line1 {
+  background-color: white;
+  height: 17%;
+  margin-bottom: 16%;
+  width: 100%;
+  display: block;
+  transition: all .5s;
+}
+
+.line2 {
+  background-color: white;
+  height: 17%;
+  margin-bottom: 16%;
+  width: 100%;
+  display: block;
+  transition: all .5s;
+}
+
+.line3 {
+  background-color: white;
+  height: 17%;
+  margin-bottom: 16%;
+  width: 100%;
+  display: block;
+  transition: all .5s;
+}
+
+.line1_rotate {
+  background-color: white;
+  height: 17%;
+  width: 100%;
+  display: block;
+  transition: all;
+  transform: translateY(200%) rotate(45deg);
+  transition: all .5s;
+}
+
+.line2_fadeout {
+  opacity: 0;
+}
+
+.line3_rotate {
+  background-color: white;
+  height: 17%;
+  width: 100%;
+  display: block;
+  transition: all .5s;
+  transform: translateY(100%) rotate(-45deg);
+}

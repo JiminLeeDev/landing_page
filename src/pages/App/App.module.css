@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.pc_body {
+    width: min(100%, 1200px);
+    margin: 35px 20px;
+}
+
+.horizon_center_align {
+    display: flex;
+    justify-content: center;
+}
+
+.vertical_center_align {
+    display: flex;
+    align-items: center;
+}
+
+.intro_box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
