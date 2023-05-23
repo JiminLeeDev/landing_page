@@ -124,7 +124,10 @@ function App() {
             ))}
           </div>
 
-          <div id="references" style={{ marginTop: "10%" }}>
+          <div
+            id="references"
+            style={{ marginTop: "10%", textAlign: isPc ? "left" : "center" }}
+          >
             <SubHead content="references" />
 
             <a
